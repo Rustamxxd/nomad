@@ -1,0 +1,17 @@
+.about {
+    padding: 100px 0;
+    &__photo {
+        width: 585px;
+        height: 450px;
+    }
+    &__text {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 300px;
+        font-size: 17px;
+    color: #222;
+    font-weight: 500;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    }
+}

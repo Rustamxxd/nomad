@@ -1,0 +1,52 @@
+.register { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+} 
+.title {
+    text-align: center;
+    color: white;
+}
+.form {
+    margin: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(184,2,2);
+background: linear-gradient(90deg, rgba(184,2,2,1) 0%, rgba(57,0,0,1) 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 500px;
+    border-radius: 70px;
+} 
+.field {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    background: rgb(57,0,0);
+background: linear-gradient(90deg, rgba(57,0,0,1) 0%, rgba(184,2,2,1) 100%);
+}
+.field::placeholder {
+    color: grey;
+}
+.btn {
+    padding: 8px;
+    background: rgb(251,243,63);
+    background: radial-gradient(circle, rgba(251,243,63,1) 0%, rgba(255,0,0,1) 91%);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    width: 25%;
+    margin: 0 auto;
+}
+.label{
+    color: whitesmoke;
+    cursor: text;
+}
