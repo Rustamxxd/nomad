@@ -5,7 +5,7 @@ const Prev = () => {
     <section className={'prev'}>
         <div className='container'>
             <h2 className={'prev__title'}>
-                <img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/nomad-logo-2.png" alt="smth" />
+                <img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/nomad-logo-2.png"  alt="smth" />
                 NOMAD COLLEGE
             </h2>
             <p className={'prev__desc'}>

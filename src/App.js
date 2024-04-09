@@ -10,7 +10,6 @@ import Price from './pages/Price/Price';
 import Spec from './pages/Spec/Spec';
 import Prev from './pages/Prev/Prev';
 import Register from './pages/Register/Register';
-
 function App() {
   return (
     <Routes>

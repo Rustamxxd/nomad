@@ -1,14 +1,20 @@
 .about {
+    background: #f1f1f1;
     padding: 100px 0;
     &__photo {
+        display: block;
         width: 585px;
         height: 450px;
+        background: #f1f1f1;
+        position: relative;
+        left: 7%
     }
     &__text {
         display: flex;
         justify-content: flex-end;
         position: relative;
-        bottom: 300px;
+        bottom: 350px;
+        right: 3%;
         font-size: 17px;
     color: #222;
     font-weight: 500;
